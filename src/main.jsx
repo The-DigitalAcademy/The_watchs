@@ -1,15 +1,38 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.jsx'
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './Pages/Home.jsx';
+import Service from './Pages/Service.jsx'
+import Contact from './Pages/Contact.jsx'
+import About from './Pages/About.jsx';
+
 const router = createBrowserRouter([
+  
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Home/>,
+  },
+  {
+    path: "/service",
+    element: <Service/>,
+  },
+  {
+    path: "/contact",
+    element: <Contact/>,
+  },
+  {
+    path: "/about",
+    element: <About/>,
   },
 ]);
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

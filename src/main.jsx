@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Home from './Pages/Home.jsx';
 import Service from './Pages/Service.jsx'
 import Contact from './Pages/Contact.jsx'

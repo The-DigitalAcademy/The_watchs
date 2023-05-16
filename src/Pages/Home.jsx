@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import Slider from '../components/Slider'
 
 function Home() {
   return (
     <div>
-        <Navbar/>
+        <Navbar />
+        <Slider />
+        <Footer />
     </div>
   )
 }

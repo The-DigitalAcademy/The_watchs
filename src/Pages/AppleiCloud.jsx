@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function iCloud() {
+function AppleiCloud() {
   return (
     <div>
         <Navbar />
@@ -11,4 +11,4 @@ function iCloud() {
   )
 }
 
-export default iCloud
+export default AppleiCloud

@@ -16,7 +16,7 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
                     <li><a href="./music">Apple Music</a></li>
                     <li><a href="./appletv">Apple TV+</a></li>
                     <li><a href="./applearcade">Apple Arcade</a></li>
-                    <li><a href="./icloud">iCloud</a></li>
+                    <li><a href="./appleicloud">iCloud</a></li>
                 </ul>
             </div>
 

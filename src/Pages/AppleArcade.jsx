@@ -5,8 +5,8 @@ import Footer from '../components/Footer'
 function AppleArcade() {
   return (
     <div>
-         <Navbar />
-         <Footer />
+        <Navbar />
+        <Footer />
     </div>
   )
 }

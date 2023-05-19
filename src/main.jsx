@@ -8,7 +8,8 @@ import Home from './Pages/Home.jsx';
 import AppleMusic from './Pages/AppleMusic.jsx';
 import AppleTv from './Pages/AppleTv.jsx';
 import AppleArcade from './Pages/AppleArcade.jsx';
-import iCloud from './Pages/iCloud.jsx';
+import AppleiCloud from './Pages/AppleiCloud.jsx';
+
 
 const router = createBrowserRouter([
   
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
     element: <Home/>,
   },
   {
-    path: "/icloud",
-    element: <iCloud/>,
+    path: "/appleicloud",
+    element: <AppleiCloud/>,
   },
   {
     path: "/appletv",
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
     element: <AppleMusic/>,
   },
   {
-    path: "./applearcade",
+    path: "/applearcade",
     element: <AppleArcade/>,
   },
 ]);

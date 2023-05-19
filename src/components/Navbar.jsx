@@ -17,7 +17,7 @@ function Header() {
             <Nav.Link href="./music">Apple Music</Nav.Link>
             <Nav.Link href="./appletv">Apple TV+</Nav.Link>
             <Nav.Link href="./applearcade">Apple Arcade</Nav.Link>
-            <Nav.Link href="./icloud">iCloud</Nav.Link>
+            <Nav.Link href="./appleicloud">iCloud</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

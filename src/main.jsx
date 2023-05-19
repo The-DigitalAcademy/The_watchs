@@ -5,10 +5,10 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Home from './Pages/Home.jsx';
-import Service from './Pages/Service.jsx'
-import Contact from './Pages/Contact.jsx'
-import About from './Pages/About.jsx';
-import Blog from './Pages/Blog.jsx'
+import AppleMusic from './Pages/AppleMusic.jsx';
+import AppleTv from './Pages/AppleTv.jsx';
+import AppleArcade from './Pages/AppleArcade.jsx';
+import iCloud from './Pages/iCloud.jsx';
 
 const router = createBrowserRouter([
   
@@ -17,20 +17,20 @@ const router = createBrowserRouter([
     element: <Home/>,
   },
   {
-    path: "/service",
-    element: <Service/>,
+    path: "/icloud",
+    element: <iCloud/>,
   },
   {
-    path: "/contact",
-    element: <Contact/>,
+    path: "/appletv",
+    element: <AppleTv/>,
   },
   {
-    path: "/about",
-    element: <About/>,
+    path: "/music",
+    element: <AppleMusic/>,
   },
   {
-    path: "/blog",
-    element: <Blog/>,
+    path: "./applearcade",
+    element: <AppleArcade/>,
   },
 ]);
 

@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function Contact() {
+function AppleMusic() {
   return (
     <div>
-        <Navbar/>
-        <Footer />
+      <Navbar />
+      <Footer />
     </div>
   )
 }
 
-export default Contact
+export default AppleMusic

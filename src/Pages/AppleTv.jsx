@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
-function About() {
+function AppleTv() {
   return (
     <div>
-        <Navbar/>
+        <Navbar />
         <Footer />
     </div>
   )
 }
 
-export default About
+export default AppleTv

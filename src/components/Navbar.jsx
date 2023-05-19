@@ -14,10 +14,10 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="./">HOME</Nav.Link>
-            <Nav.Link href="./about">ABOUT</Nav.Link>
-            <Nav.Link href="./service">SERVICE</Nav.Link>
-            <Nav.Link href="./blog">BLOG</Nav.Link>
-            <Nav.Link href="./contact">CONTACT</Nav.Link>
+            <Nav.Link href="./music">Apple Music</Nav.Link>
+            <Nav.Link href="./appletv">Apple TV+</Nav.Link>
+            <Nav.Link href="./applearcade">Apple Arcade</Nav.Link>
+            <Nav.Link href="./icloud">iCloud</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

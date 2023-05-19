@@ -13,10 +13,10 @@ const Footer = () => <footer className="page-footer font-small blue pt-4">
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Services</h5>
                 <ul className="list-unstyled">
-                    <li><a href="#!">Apple Music</a></li>
-                    <li><a href="#!">Apple TV+</a></li>
-                    <li><a href="#!">Apple Arcade</a></li>
-                    <li><a href="#!">iCloud</a></li>
+                    <li><a href="./music">Apple Music</a></li>
+                    <li><a href="./appletv">Apple TV+</a></li>
+                    <li><a href="./applearcade">Apple Arcade</a></li>
+                    <li><a href="./icloud">iCloud</a></li>
                 </ul>
             </div>
 
